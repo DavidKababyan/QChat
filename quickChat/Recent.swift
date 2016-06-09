@@ -8,6 +8,7 @@
 
 import Foundation
 import FirebaseDatabase
+import Firebase
 
 //------Constants--------\\
 public let kAVATARSTATE = "avatarState"
