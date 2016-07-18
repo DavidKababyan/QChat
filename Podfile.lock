@@ -1,4 +1,5 @@
 PODS:
+  - Backendless (3.0.31)
   - DACircularProgress (2.3.1)
   - Firebase/Analytics (3.2.0):
     - FirebaseAnalytics (= 3.2.0)
@@ -33,12 +34,14 @@ PODS:
   - SDWebImage/Core (3.7.5)
 
 DEPENDENCIES:
+  - Backendless
   - Firebase/Core
   - Firebase/Database
   - IDMPhotoBrowser
   - JSQMessagesViewController
 
 SPEC CHECKSUMS:
+  Backendless: 165e296195ce8339294950ef9a372b88ebae41d7
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   Firebase: 6d4012da1598732a2b43f16d8355eca90f94ed59
   FirebaseAnalytics: 6f75b04e6bfb8e0b6e9ef298e04c24eea3b13863

@@ -325,7 +325,7 @@ class ChatViewController: JSQMessagesViewController, UINavigationControllerDeleg
     func incoming(item: NSDictionary) -> Bool {
         
         if backendless.userService.currentUser.objectId == item["senderId"] as! String {
-            print("have location")
+
             return false
         } else {
             return true

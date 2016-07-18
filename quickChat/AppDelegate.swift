@@ -9,8 +9,8 @@
 import UIKit
 import CoreLocation
 import FBSDKCoreKit
-import Firebase//change
-import FirebaseDatabase//change
+import Firebase
+import FirebaseDatabase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate {
@@ -20,8 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
     var locationManager: CLLocationManager?
     var coordinate: CLLocationCoordinate2D?
 
-    let APP_ID = "E8AE2371-FBD0-B3A8-FF40-4E9BA771A900" //"BA71DF20-625A-F74A-FFC9-9138782BB800"
-    let SECRET_KEY = "8A6435A9-62BD-BFF6-FF0E-EEA4644E3D00" //"27DF302F-78A0-368B-FF38-0112A5FAA400"
+    let APP_ID = "E8AE2371-FBD0-B3A8-FF40-4E9BA771A900" //chage this
+    let SECRET_KEY = "8A6435A9-62BD-BFF6-FF0E-EEA4644E3D00" //chage this
     let VERSION_NUM = "v1"
     
     

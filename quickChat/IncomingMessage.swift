@@ -58,6 +58,8 @@ class IncomingMessage {
 
     func createLocationMessage(item : NSDictionary) -> JSQMessage {
         
+        print("item : \(item)")
+        
         let name = item["senderName"] as? String
         let userId = item["senderId"] as? String
         
